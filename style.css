@@ -1,0 +1,22 @@
+/* 
+Theme Name: LUMS Carpooling System 
+Theme URI: www.carpooling.lums.edu.pk
+Description: A Customized Theme For SE Project: LUMS Carpooling System  
+Author: Abdul Aleem Khan 
+Author URI: http://hi.im/mr.aleem001 
+Version: 1.0 
+Tags: responsive, white, bootstrap 
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) 
+License URI: http://creativecommons.org/licenses/by-sa/3.0/ This theme was built using Bootstrap http://twitter.github.com/bootstrap/
+*/
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+
+body 
+{ 
+	padding-top: 40px; 
+	padding-bottom: 40px; 
+	
+}
+
