@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 <?
 session_start();
 if(isset($_SESSION['login'])){
   header("Location: http://localhost/wordpress/news");
 }
 ?>
+=======
+>>>>>>> cc259aba2809bd9a42aedeef884438f8ec3851a9
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,6 +26,7 @@ if(isset($_SESSION['login'])){
     <!-- Le fav and touch icons -->
 	<?php wp_enqueue_script("jquery"); ?>
     <?php wp_head(); ?>
+<<<<<<< HEAD
 	<?php
 	$flag = 0;
 	$message = "";
@@ -62,6 +66,8 @@ if(isset($_SESSION['login'])){
 	
 	
 	
+=======
+>>>>>>> cc259aba2809bd9a42aedeef884438f8ec3851a9
 	  <style type="text/css">
       body {
         padding-top: 40px;
@@ -101,10 +107,24 @@ if(isset($_SESSION['login'])){
 	
     <div class="container">
 		
+<<<<<<< HEAD
 		<div id="form-div">
 		
 		</div>
 	  
+=======
+		<form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <input type="text" class="input-block-level" placeholder="Email address">
+        <input type="password" class="input-block-level" placeholder="Password">
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        <button class="btn btn-large btn-primary" type="submit">Sign in</button>
+      </form>
+		
+		
+>>>>>>> cc259aba2809bd9a42aedeef884438f8ec3851a9
       <hr>
 
       <footer>
@@ -112,6 +132,7 @@ if(isset($_SESSION['login'])){
       </footer>
 
     </div> <!-- /container -->
+<<<<<<< HEAD
 	
 	<script>
 	
@@ -207,3 +228,7 @@ if(isset($_SESSION['login'])){
 	</script>
   </body>
 </html>		
+=======
+  </body>
+</html>		
+>>>>>>> cc259aba2809bd9a42aedeef884438f8ec3851a9

@@ -8,15 +8,5 @@
 		
 	} 
 	
-<<<<<<< HEAD
-	add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
-	include_once (TEMPLATEPATH . '/carpool_functions.php');
-	
-?>
-
-
-
-=======
 	add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' ); 
 ?>
->>>>>>> cc259aba2809bd9a42aedeef884438f8ec3851a9
